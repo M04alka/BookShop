@@ -1,0 +1,31 @@
+package ua.od.BookSeller.repository.dao.imp;
+
+import ua.od.BookSeller.model.BookEntity;
+import ua.od.BookSeller.repository.dao.BookDao;
+import ua.od.BookSeller.repository.helper.SQLHelper;
+
+import java.sql.ResultSet;
+import java.util.ArrayList;
+import java.util.List;
+
+public class BookDaoImpl implements BookDao {
+
+    private static  String GET_ALL_BOOKS="";
+
+    public List<BookEntity> getAllBooks() {
+        return SQLHelper.prepareStatement(GET_ALL_BOOKS, statement->{
+            final ResultSet resultSet = statement.executeQuery();
+            List<BookEntity> bookList = new ArrayList();
+            while (resultSet.next()){
+               bookList.add(new BookEntity(){{
+                   setName(resultSet.getString(""));
+                   setAuthorName(resultSet.getString(""));
+                   setAuthotSername(resultSet.getString(""));
+                   setAuthorPatronymic(resultSet.getString(""));
+                   setPrice(resultSet.getFloat(""));
+               }});
+           }
+            return bookList;
+        });
+    }
+}

@@ -1,0 +1,11 @@
+ua\od\BookSeller\controller\BooksController.class
+ua\od\BookSeller\dto\AccountDto.class
+ua\od\BookSeller\dto\BookDto.class
+ua\od\BookSeller\controller\AccountController.class
+ua\od\BookSeller\repository\dao\AccountBooksDao.class
+ua\od\BookSeller\repository\dao\AccountDao.class
+ua\od\BookSeller\AppStarter.class
+ua\od\BookSeller\model\AccountEntity.class
+ua\od\BookSeller\dto\AccountBooksDto.class
+ua\od\BookSeller\controller\AccountBooksController.class
+ua\od\BookSeller\model\BookEntity.class
