@@ -86,10 +86,13 @@ public class ShopBookSelectedDaoImpl implements ShopBookSelectedDao {
             return book.executeUpdate();
         });
     }
+
     private static  String GET_MONEY =
-            "Select account.creditCardNumber as a_money\n" +
+            "Select User.Wallet as a_money\n" +
             "From Account\n" +
-            "Where Account = ?;";
+            "Inner Join User\n" +
+            "On Account.user_id = User.id\n" +
+            "Where Account.id = ?;";
 
     @Override
     public Float checkMoney(Integer a_id) {
@@ -99,6 +102,22 @@ public class ShopBookSelectedDaoImpl implements ShopBookSelectedDao {
             ResultSet rs = money.executeQuery();
             accountMoney = rs.getFloat("a_money");
             return accountMoney;
+        });
+    }
+
+    private  static  String NEW_BELANCE =
+            "UPDATE Users\n" +
+                    "Inner Join Account\n" +
+                    "On Account.user_id = Users.id\n" +
+                    "SET Wallet = ?\n" +
+                    "WHERE Account.id = ?;";
+
+    @Override
+    public void GetMoney(Integer a_id, Float price) {
+        SQLHelper.prepareStatement(NEW_BELANCE, money->{
+            money.setInt(2,a_id);
+            ResultSet rs = money.executeQuery();
+            return  money.executeUpdate();
         });
     }
 }

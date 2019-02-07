@@ -7,5 +7,6 @@ public interface ShopBookSelectedDao {
    ShopSelectedEntity bookInshop(Integer id);
    void addBook(Integer a_id, Integer b_id);
    Float checkMoney(Integer a_id);
+   void GetMoney (Integer a_id, Float price);
  }
 

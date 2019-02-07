@@ -55,8 +55,10 @@ public class ShopBookSelectedServiceImpl implements ShopBookSelectedService {
     @Override
     public String addBook(Integer a_id, Integer b_id) {
         String result = null;
-        if(bookDao.bookInshop(b_id).getPrice()< bookDao.checkMoney(a_id))
+        Float price = bookDao.bookInshop(b_id).getPrice();
+        if(price < bookDao.checkMoney(a_id))
         {
+            bookDao.GetMoney(a_id,price);
             bookDao.addBook(a_id,b_id);
             result = "Book Added";
         }
