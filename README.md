@@ -1,4 +1,4 @@
 # BookShop
 Book shop REST Service
 
-# BookShop DB https://app.sqldbm.com/MySQL/Edit/p53071/#
+BookShop DB https://app.sqldbm.com/MySQL/Edit/p53071/#
