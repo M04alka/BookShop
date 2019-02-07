@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="97c41d7d-cb47-4c53-afd1-2230de1d44c3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountBookSelectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountBookSelectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBooksControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBooksControllerImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/BooksInShopDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/ShopBooksDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/SelectedInAccountDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/AccountSelectedDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/SelectedInShopDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/ShopSelectedDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/BooksInShopEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/ShopBooksEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/SelectedInAccountEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/AccountSelectedEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/SelectedInShopEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/ShopSelectedEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/AccountBookSelectedDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/AccountBookSelectedDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBookSelectedControllerImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBookSelectedControllerImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBookSelectedDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBookSelectedDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBooksDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBooksDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/AccountBookSelectedDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/AccountBookSelectedDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBooksDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBooksDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/AccountBookSelectedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/AccountBookSelectedService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBooksService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBooksService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/AccountBookSelectedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/AccountBookSelectedServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBooksServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBooksServiceImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -39,11 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+            <state relative-caret-position="673">
+              <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,10 +35,55 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBookSelectedControllerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+            <state relative-caret-position="510">
+              <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBookSelectedDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,14 +150,14 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/AccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/AccountServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountControllerImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopSelectedController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBookSelectedDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopSelectedController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBookSelectedControllerImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java" />
       </list>
     </option>
   </component>
@@ -219,54 +247,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-              <item name="imp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BookShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BookShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="BookSeller" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -288,7 +268,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549501851697" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549504567983" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -331,7 +311,7 @@
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.26466992" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49888143" visible="true" weight="0.2408313" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -386,52 +366,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/configs/AppConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBooksController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/GanreEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#136#137#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
-            <element signature="e#212#213#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/AccountEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="30" column="5" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/AccountService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/NewAccountDto.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -495,16 +429,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountBooksController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="56" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="56" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -773,16 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBooksControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/AccountBookSelectedServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -813,26 +727,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/AccountDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -853,16 +747,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBooksControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/AccountBookSelectedDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -873,20 +757,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/configs/AppConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/configs/DBConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="104" selection-start-line="22" selection-start-column="83" selection-end-line="22" selection-end-column="104" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBooksControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="12" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBooksControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountControllerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountBooksController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" column="56" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -900,10 +831,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/AccountController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBooksController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/model/AddNewBookEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/dto/AddNewBookDto.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/impl/ShopBookSelectedServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/service/ShopBookSelectedService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="47" lean-forward="true" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="62" column="28" selection-start-line="62" selection-start-column="28" selection-end-line="62" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -912,35 +897,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/ShopBookSelectedDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="22" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/repository/dao/imp/ShopBookSelectedDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="527">
-          <caret line="31" column="74" selection-start-line="31" selection-start-column="74" selection-end-line="31" selection-end-column="74" />
+        <state relative-caret-position="136">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/ShopBookSelectedController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/ShopBookSelectedControllerImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/od/BookSeller/controller/impl/AccountBookSelectedControllerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        <state relative-caret-position="510">
+          <caret line="30" column="67" selection-start-line="30" selection-start-column="67" selection-end-line="30" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

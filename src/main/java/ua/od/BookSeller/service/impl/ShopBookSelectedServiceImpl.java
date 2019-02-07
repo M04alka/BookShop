@@ -9,16 +9,27 @@ public class ShopBookSelectedServiceImpl implements ShopBookSelectedService {
 
     public ShopBookSelectedDao bookDao;
 
-
     @Override
     public ShopSelectedDto BookInshop(Integer id) {
         ShopSelectedDto book = new ShopSelectedDto();
-        ShopSelectedEntity bookEntity = bookDao.BookInshop(id);
+        ShopSelectedEntity bookEntity = bookDao.bookInshop(id);
         book.setBookName(bookEntity.getBookName());
         book.setDescription(bookEntity.getDescription());
         book.setAuthorName(bookEntity.getAuthorName());
         bookEntity.setAuthorSername(bookEntity.getAuthorSername());
         book.setAuthorPatronymic(bookEntity.getAuthorPatronymic());
         return book;
+    }
+
+    @Override
+    public String addBook(Integer a_id, Integer b_id) {
+        String result = null;
+        if(bookDao.bookInshop(b_id).getPrice()< bookDao.checkMoney(a_id))
+        {
+            bookDao.addBook(a_id,b_id);
+            result = "Book Added";
+        }
+        else  result = "Not enought money!";
+        return result ;
     }
 }
