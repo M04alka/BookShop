@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface AccountBooksController {
 
-    List<AccountBooksDto> getAllAccountBooksList();
+    List<AccountBooksDto> getAllAccountBooksList(Integer id);
 
 }

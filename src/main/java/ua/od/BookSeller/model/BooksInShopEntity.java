@@ -1,8 +1,10 @@
-package ua.od.BookSeller.dto;
+package ua.od.BookSeller.model;
 
-public class BookDto {
+public class BooksInShopEntity {
+
     String name;
     Float price;
+    String description;
     String authorName;
     String authotSername;
     String authorPatronymic;
@@ -21,6 +23,14 @@ public class BookDto {
 
     public void setPrice(Float price) {
         this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
     }
 
     public String getAuthorName() {

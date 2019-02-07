@@ -6,6 +6,6 @@ import java.util.List;
 
 public interface AccountBooksService {
 
-    List<AccountBooksDto> getAllAccountBooks();
+    List<AccountBooksDto> getAllAccountBooks(Integer id);
 
 }

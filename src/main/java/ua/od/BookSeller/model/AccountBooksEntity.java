@@ -1,10 +1,10 @@
-package ua.od.BookSeller.dto;
+package ua.od.BookSeller.model;
 
 import java.util.List;
 
-public class AccountBooksDto {
+public class AccountBooksEntity {
     String name;
-    List<AuthorDto> authors;
+    List<AuthorEntity> authors;
 
     public String getName() {
         return name;
@@ -14,12 +14,11 @@ public class AccountBooksDto {
         this.name = name;
     }
 
-    public List<AuthorDto> getAuthors() {
+    public List<AuthorEntity> getAuthors() {
         return authors;
     }
 
-    public void setAuthors(List<AuthorDto> authors) {
+    public void setAuthors(List<AuthorEntity> authors) {
         this.authors = authors;
     }
-
 }
