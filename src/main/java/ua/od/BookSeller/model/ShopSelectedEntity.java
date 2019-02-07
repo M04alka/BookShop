@@ -1,7 +1,10 @@
-package ua.od.BookSeller.dto;
+package ua.od.BookSeller.model;
 
-public class SelectedInAccountDto {
+public class ShopSelectedEntity {
+
     String bookName;
+    Float price;
+    String description;
     String authorName;
     String authorSername;
     String authorPatronymic;
@@ -14,12 +17,28 @@ public class SelectedInAccountDto {
         this.bookName = bookName;
     }
 
+    public Float getPrice() {
+        return price;
+    }
+
+    public void setPrice(Float price) {
+        this.price = price;
+    }
+
+    public String getDescription() {
+        return description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
     public String getAuthorName() {
         return authorName;
     }
 
-    public void setAuthorName(String authorName) {
-        this.authorName = authorName;
+    public void setAuthorName(String authorNmae) {
+        this.authorName = authorNmae;
     }
 
     public String getAuthorSername() {

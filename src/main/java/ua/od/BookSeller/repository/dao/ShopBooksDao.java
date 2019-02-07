@@ -1,9 +1,9 @@
 package ua.od.BookSeller.repository.dao;
 
-import ua.od.BookSeller.model.BooksInShopEntity;
+import ua.od.BookSeller.model.ShopBooksEntity;
 
 import java.util.List;
 
 public interface ShopBooksDao {
-    List<BooksInShopEntity> getAllBooks();
+    List<ShopBooksEntity> getAllBooks();
 }

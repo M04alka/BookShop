@@ -1,7 +1,7 @@
 package ua.od.BookSeller.controller;
 
-import ua.od.BookSeller.dto.SelectedInAccountDto;
+import ua.od.BookSeller.dto.AccountSelectedDto;
 
 public interface AccountBookSelectedController {
-    SelectedInAccountDto getSelectedBook(Integer a_id,Integer b_id);
+    AccountSelectedDto getSelectedBook(Integer a_id, Integer b_id);
 }

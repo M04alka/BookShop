@@ -1,6 +1,8 @@
 package ua.od.BookSeller.repository.dao;
 
+import ua.od.BookSeller.model.ShopSelectedEntity;
+
 public interface ShopBookSelectedDao {
-   String BookInshop(Integer id);
+   ShopSelectedEntity BookInshop(Integer id);
 }
 

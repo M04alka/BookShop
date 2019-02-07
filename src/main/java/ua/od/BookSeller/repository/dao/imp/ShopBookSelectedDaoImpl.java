@@ -1,6 +1,6 @@
 package ua.od.BookSeller.repository.dao.imp;
 
-import ua.od.BookSeller.model.SelectedInShopEntity;
+import ua.od.BookSeller.model.ShopSelectedEntity;
 import ua.od.BookSeller.repository.dao.ShopBookSelectedDao;
 import ua.od.BookSeller.repository.helper.SQLHelper;
 
@@ -19,19 +19,18 @@ public class ShopBookSelectedDaoImpl implements ShopBookSelectedDao {
             "Where Book.id = ?;";
 
     @Override
-    public String BookInshop(Integer id) {
+    public ShopSelectedEntity BookInshop(Integer id) {
         return SQLHelper.prepareStatement(GET_SELECTED_BOOKS, statement->{
             statement.setInt(1,id);
+            ShopSelectedEntity book = new ShopSelectedEntity();
             ResultSet resultSet = statement.executeQuery();
-            new SelectedInShopEntity(){{
-                    setBookName(resultSet.getString("b_name"));
-                    setPrice(resultSet.getFloat("b_price"));
-                    setDescription(resultSet.getString("description"));
-                    setAuthorName(resultSet.getString("a_name"));
-                    setAuthorSername(resultSet.getString("a_sername"));
-                    setAuthorPatronymic(resultSet.getString("a_patronymic"));
-            }};
-            return null;
+            book.setBookName(resultSet.getString("b_name"));
+            book.setPrice(resultSet.getFloat("b_price"));
+            book.setDescription(resultSet.getString("description"));
+            book.setAuthorName(resultSet.getString("a_name"));
+            book.setAuthorSername(resultSet.getString("a_sername"));
+            book.setAuthorPatronymic(resultSet.getString("a_patronymic"));
+            return book;
         });
     }
 }

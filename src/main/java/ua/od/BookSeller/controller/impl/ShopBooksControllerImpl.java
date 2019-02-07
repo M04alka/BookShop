@@ -1,7 +1,7 @@
 package ua.od.BookSeller.controller.impl;
 
 import ua.od.BookSeller.controller.ShopBooksController;
-import ua.od.BookSeller.dto.BooksInShopDto;
+import ua.od.BookSeller.dto.ShopBooksDto;
 import ua.od.BookSeller.service.ShopBooksService;
 
 import javax.inject.Inject;
@@ -19,8 +19,8 @@ public class ShopBooksControllerImpl implements ShopBooksController {
     @GET
     @Path("/list")
     @Produces({MediaType.APPLICATION_JSON, MediaType.APPLICATION_XML})
-    public List<BooksInShopDto> getAllBooksList() {
-        List<BooksInShopDto> bookList = bookService.getAllBooksList();
+    public List<ShopBooksDto> getAllBooksList() {
+        List<ShopBooksDto> bookList = bookService.getAllBooksList();
         return bookList;
     }
 }

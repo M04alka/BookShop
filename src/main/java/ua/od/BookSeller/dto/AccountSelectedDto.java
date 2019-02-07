@@ -1,6 +1,6 @@
-package ua.od.BookSeller.model;
+package ua.od.BookSeller.dto;
 
-public class SelectedInAccountEntity {
+public class AccountSelectedDto {
     String bookName;
     String authorName;
     String authorSername;

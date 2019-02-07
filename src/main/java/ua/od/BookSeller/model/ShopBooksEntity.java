@@ -1,6 +1,7 @@
-package ua.od.BookSeller.dto;
+package ua.od.BookSeller.model;
 
-public class BooksInShopDto {
+public class ShopBooksEntity {
+
     String name;
     Float price;
     String description;

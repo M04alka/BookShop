@@ -1,6 +1,6 @@
 package ua.od.BookSeller.service.impl;
 
-import ua.od.BookSeller.dto.BooksInShopDto;
+import ua.od.BookSeller.dto.ShopBooksDto;
 import ua.od.BookSeller.repository.dao.ShopBooksDao;
 import ua.od.BookSeller.repository.dao.imp.ShopBooksDaoImpl;
 import ua.od.BookSeller.service.ShopBooksService;
@@ -13,11 +13,11 @@ public class ShopBooksServiceImpl implements ShopBooksService {
     public ShopBooksDao bookDao;
 
     @Override
-    public List<BooksInShopDto> getAllBooksList() {
+    public List<ShopBooksDto> getAllBooksList() {
         bookDao = new ShopBooksDaoImpl();
-        List<BooksInShopDto> bookList = new ArrayList<>();
+        List<ShopBooksDto> bookList = new ArrayList<>();
         bookDao.getAllBooks().forEach(bookEntity -> {
-            bookList.add(new BooksInShopDto(){{
+            bookList.add(new ShopBooksDto(){{
                 setName(bookEntity.getName());
                 setAuthorName(bookEntity.getAuthorName());
                 setAuthotSername(bookEntity.getAuthotSername());

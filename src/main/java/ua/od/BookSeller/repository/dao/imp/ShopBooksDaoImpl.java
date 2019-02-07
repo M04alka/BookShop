@@ -1,6 +1,6 @@
 package ua.od.BookSeller.repository.dao.imp;
 
-import ua.od.BookSeller.model.BooksInShopEntity;
+import ua.od.BookSeller.model.ShopBooksEntity;
 import ua.od.BookSeller.repository.dao.ShopBooksDao;
 import ua.od.BookSeller.repository.helper.SQLHelper;
 
@@ -12,12 +12,12 @@ public class ShopBooksDaoImpl implements ShopBooksDao {
 
     private static  String GET_ALL_BOOKS="";
 
-    public List<BooksInShopEntity> getAllBooks() {
+    public List<ShopBooksEntity> getAllBooks() {
         return SQLHelper.prepareStatement(GET_ALL_BOOKS, statement->{
             final ResultSet resultSet = statement.executeQuery();
-            List<BooksInShopEntity> bookList = new ArrayList();
+            List<ShopBooksEntity> bookList = new ArrayList();
             while (resultSet.next()){
-               bookList.add(new BooksInShopEntity(){{
+               bookList.add(new ShopBooksEntity(){{
                    setName(resultSet.getString(""));
                    setAuthorName(resultSet.getString(""));
                    setAuthotSername(resultSet.getString(""));

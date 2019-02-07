@@ -1,7 +1,7 @@
 package ua.od.BookSeller.service;
 
-import ua.od.BookSeller.dto.SelectedInAccountDto;
+import ua.od.BookSeller.dto.AccountSelectedDto;
 
 public interface AccountBookSelectedService {
-    SelectedInAccountDto selectedBook(Integer a_id, Integer b_id);
+    AccountSelectedDto selectedBook(Integer a_id, Integer b_id);
 }

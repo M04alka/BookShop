@@ -1,11 +1,11 @@
 package ua.od.BookSeller.controller;
 
-import ua.od.BookSeller.dto.BooksInShopDto;
+import ua.od.BookSeller.dto.ShopBooksDto;
 
 import java.util.List;
 
 public interface ShopBooksController {
 
-List<BooksInShopDto> getAllBooksList();
+List<ShopBooksDto> getAllBooksList();
 
 }
