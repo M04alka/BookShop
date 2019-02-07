@@ -1,13 +1,14 @@
 package ua.od.BookSeller.model;
 
-public class ShopSelectedEntity {
+import java.util.List;
 
+public class ShopSelectedEntity {
     String bookName;
     Float price;
     String description;
-    String authorName;
-    String authorSername;
-    String authorPatronymic;
+    String publishingHouse;
+    List<GanreEntity> ganres;
+    List<AuthorEntity> authors;
 
     public String getBookName() {
         return bookName;
@@ -33,27 +34,27 @@ public class ShopSelectedEntity {
         this.description = description;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getPublishingHouse() {
+        return publishingHouse;
     }
 
-    public void setAuthorName(String authorNmae) {
-        this.authorName = authorNmae;
+    public void setPublishingHouse(String publishingHouse) {
+        this.publishingHouse = publishingHouse;
     }
 
-    public String getAuthorSername() {
-        return authorSername;
+    public List<GanreEntity> getGanres() {
+        return ganres;
     }
 
-    public void setAuthorSername(String authorSername) {
-        this.authorSername = authorSername;
+    public void setGanres(List<GanreEntity> ganres) {
+        this.ganres = ganres;
     }
 
-    public String getAuthorPatronymic() {
-        return authorPatronymic;
+    public List<AuthorEntity> getAuthors() {
+        return authors;
     }
 
-    public void setAuthorPatronymic(String authorPatronymic) {
-        this.authorPatronymic = authorPatronymic;
+    public void setAuthors(List<AuthorEntity> authors) {
+        this.authors = authors;
     }
 }

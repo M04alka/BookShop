@@ -1,12 +1,17 @@
 package ua.od.BookSeller.dto;
 
+import ua.od.BookSeller.model.AuthorEntity;
+import ua.od.BookSeller.model.GanreEntity;
+
+import java.util.List;
+
 public class ShopSelectedDto {
     String bookName;
     Float price;
     String description;
-    String authorName;
-    String authorSername;
-    String authorPatronymic;
+    String publishingHouse;
+    List<GanreDto> ganres;
+    List<AuthorDto> authors;
 
     public String getBookName() {
         return bookName;
@@ -32,27 +37,27 @@ public class ShopSelectedDto {
         this.description = description;
     }
 
-    public String getAuthorName() {
-        return authorName;
+    public String getPublishingHouse() {
+        return publishingHouse;
     }
 
-    public void setAuthorName(String authorNmae) {
-        this.authorName = authorNmae;
+    public void setPublishingHouse(String publishingHouse) {
+        this.publishingHouse = publishingHouse;
     }
 
-    public String getAuthorSername() {
-        return authorSername;
+    public List<GanreDto> getGanres() {
+        return ganres;
     }
 
-    public void setAuthorSername(String authorSername) {
-        this.authorSername = authorSername;
+    public void setGanres(List<GanreDto> ganres) {
+        this.ganres = ganres;
     }
 
-    public String getAuthorPatronymic() {
-        return authorPatronymic;
+    public List<AuthorDto> getAuthors() {
+        return authors;
     }
 
-    public void setAuthorPatronymic(String authorPatronymic) {
-        this.authorPatronymic = authorPatronymic;
+    public void setAuthors(List<AuthorDto> authors) {
+        this.authors = authors;
     }
 }
